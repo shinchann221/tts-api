@@ -1,0 +1,16 @@
+{
+  "name": "tts-api",
+  "version": "1.0.0",
+  "description": "Text to Speech api for Voice Modules of NTAS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paras Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^3.3.1",
+    "express": "^4.17.1",
+    "smb2": "^0.2.11"
+  }
+}
